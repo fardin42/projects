@@ -1,0 +1,13 @@
+@mixin pose{
+    gap: 20px;
+    padding: 20px;
+}
+@mixin insider{
+    padding: 40px 20px;
+    gap: 20px;
+}
+@mixin bgcBorder{
+    background-color: $grey10;
+    border: $border_1;
+}
+

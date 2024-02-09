@@ -1,0 +1,110 @@
+footer {
+    width: 1920px;
+
+    .cta {
+        padding: 100px 162px;
+        gap: 250px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: url(../../media/bgCTA.png);
+
+        hgroup {
+            width: 1154px;
+
+            h3 {
+                color: $colorWhite;
+                font: $Heading_2a;
+            }
+
+            p {
+                color: $description_color;
+                font: $paraText;
+            }
+        }
+
+    }
+
+    .footerMain {
+        padding: 100px 162px;
+        gap: 80px;
+        align-items: center;
+
+        .footContainer {
+            .logoNews {
+                display: flex;
+                flex-direction: column;
+                width: 538px;
+                gap: 30px;
+
+                img {
+                    width: 160px;
+                    height: 48px;
+                }
+
+                form {
+                    input {
+                        padding: 18px 24px;
+                        gap: 10px;
+                        border-radius: 12px;
+                        background-color: $grey08;
+                        border: $border_1;
+                        color: $colorWhite;
+                    }
+                }
+            }
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            width: 978px;
+            justify-content: space-between;
+
+
+            .stambh {
+                gap: 30px;
+
+                span {
+                    color: $description_color;
+                    font: $paraText2;
+                }
+
+                ul {
+                    gap: 20px;
+
+
+                    li {
+                        a{
+                        color: $colorWhite;
+                        font: $paraText;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footEnd {
+            padding: 16px 162px;
+            background-color: $grey10;
+            
+            width: 1920px;
+
+            .rightFoot {
+                gap: 38px;
+                
+                a {
+                    color: $colorWhite;
+                    font: $paraText;
+                }
+            }
+            .socialIcon{
+                padding: 10px 0px;
+                gap: 10px;
+                a{
+                    background-color: $grey08;
+                }
+            }
+        }
+    }
+}

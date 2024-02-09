@@ -1,0 +1,82 @@
+.wrap{
+  
+    width: 1596px;
+    margin: auto;
+    margin-top: 150px;
+    gap: 80px;
+    .subContainer{
+        gap: 200px;
+        align-items: flex-end;
+        position: relative;
+        img{
+            position: absolute;
+            top: -20px;
+            left: 0px;
+        }
+        hgroup{
+            width: 1200px;
+            gap: 200px;
+            h2{
+                font: $Heading_1;
+                color: $colorWhite;
+            }
+            p{
+                color: $description_color;
+                font: $paraText;
+            }
+            .botmRight{
+                margin-bottom: 0px;
+                margin-right: 0px;
+            }
+        }
+    }
+    .boxContainer{
+        
+        gap:80px;
+        .CardContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            .card{
+                border: $border_1;
+                border-radius: 12px;
+                padding: 40px;
+                gap: 30px;
+                .info{
+                    gap: 30px;
+                    h4{
+                        color: $colorWhite;
+                        font: $Heading_4;
+                    }
+                    p{
+                        color: $description_color;
+                        font: $paraText;
+                        a{
+                            color: $colorWhite;
+                            text-decoration:underline;
+                        }
+                    }
+                    .row3Btn{
+                        display: flex;
+                        gap: 10px;
+                    }
+                    .inquiry{
+                        gap: 50px;
+                    }
+                }
+                
+            }
+        }
+        .pageSelect{
+            padding-top: 20px;
+            border-top: $border_1;
+            p{
+                font: $paraText;
+                color: $description_color;
+                span{
+                    color: $colorWhite;
+                }
+            }
+        }
+    }
+}

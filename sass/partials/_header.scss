@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+    height: fit-content;
+    
+    
+
+    .hero{
+        position: relative;
+        background-color: $grey08;
+        justify-content: space-between;
+        
+        .leftSide, .rightSide{
+            width: 48vw;
+            height: 80vh;
+        }
+       
+        .leftSide{
+            padding-left: 162px;
+            gap: 60px;
+            justify-content: center;
+
+            h2{
+                font: $Heading_1;
+                color: $colorWhite;
+            }
+            p{
+                color: $description_color;
+                font: $paraText;
+            }
+            .roundPlay{
+                position: absolute;
+                left: 900px;
+                top: 110px;
+            }
+            .gap{
+                gap: 20px;
+                justify-content: flex-start;
+            }
+            // achivement 3 box 
+            .achivement{
+                width: 758px;
+                height: fit-content;
+                
+
+                .box{
+                   
+                    background-color: $grey10;
+                    gap: 2px;
+                    padding: 16px 24px;
+                    border-radius: 12px;
+                    border: $border_1;
+                    h3{
+                        
+                        font: $Heading_3;
+                        color: $colorWhite;
+                    }
+                    p{
+                        font: $paraText;
+                        color: $description_color;
+                    }
+                }
+            }
+        }
+        .rightSide{
+            overflow: hidden;
+            
+        }
+
+    }
+    .container-options{
+        @include pose;
+        width: 100vw;
+        
+        background-color: $grey08;
+        display: flex;
+        justify-content: center;
+        border: $border_big;
+        
+    }
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}

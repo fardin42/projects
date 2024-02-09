@@ -1,0 +1,37 @@
+.wrapper{
+    background-color: $grey10;
+    
+}
+
+nav{
+    width: 80vw;
+    height: 100px;
+    background-color: $grey10;
+    margin: auto;
+    .navBar{
+        ul{
+            li{
+                
+                a, .butn{
+                    color: $colorWhite;
+                    font: $paraText;
+                    padding:20px 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+   
+}
+.navMid{
+    padding: 18px 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../../media/abstractBanner.png);
+    p{
+        font: $paraText;
+        color: $colorWhite;
+    }
+    
+}

@@ -1,0 +1,19 @@
+@import 'partials/reset';
+// Variables
+@import 'color/colors';
+@import 'font/fonts';
+// mixin
+@import 'mixin/mixin';
+// Partial files
+@import 'partials/common';
+@import 'partials/_index';
+@import 'partials/nav';
+@import 'partials/header';
+@import 'partials/section1';
+@import 'partials/footer';
+// mixin
+@import 'mixin/mixin';
+// components
+@import 'components/buttons';
+@import 'components/cards';
+

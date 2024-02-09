@@ -1,0 +1,21 @@
+body{
+    
+    background-color: $grey08;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box; 
+}
+#fixated{
+   position: fixed;
+   right: 10vw;
+   bottom: 10vh;
+   a{
+    background-color: $colorWhite;
+    display: flex;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+   }
+}

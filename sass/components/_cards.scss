@@ -1,0 +1,64 @@
+.bigBox{
+    @include insider;
+    @include bgcBorder;
+    position: relative;
+    align-items: center;
+    border-radius: 12px;
+}
+.bigBox .arrow{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bigBox p{
+    font: $paraText2;
+    color: $colorWhite;
+    width: 400px;
+    text-align: center;
+    
+}
+.ratingCard{
+    padding: 50px;
+    border: $border_1;
+    border-radius: 12px;
+    gap: 40px;
+    .rating{
+        gap: 10px;
+        justify-content: flex-start;
+    }
+    .information{
+        h4{
+            color: $colorWhite;
+            font: $Heading_4;
+        }
+        p{
+            color: $description_color;
+            font: $paraText;
+            a{
+                color: $colorWhite;
+                text-decoration:underline;
+            }
+        }
+    }
+    
+}
+.profile{
+    justify-content: flex-start;
+    gap: 12px;
+
+    h4{
+        font: $paraText2;
+        color: $colorWhite;
+    }
+    address{
+        font: $paraText;
+        color: $description_color;
+        gap: 2px;
+    }
+}
+.space{
+    margin-top: 30px;
+    .marj{
+        font: $paraText2;
+    }
+}
