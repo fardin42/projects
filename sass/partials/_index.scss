@@ -10,6 +10,7 @@ body{
    position: fixed;
    right: 10vw;
    bottom: 10vh;
+   z-index: 1000;
    a{
     background-color: $colorWhite;
     display: flex;
