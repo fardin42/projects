@@ -1,0 +1,28 @@
+.chameleon:hover{
+    @include btnBlack;
+    
+}
+.whiteBtn:hover{
+    @include btnwhite;
+    @include trans;
+}
+
+.lSpaceBrdr:hover{
+    @include brdrSpacing;
+    @include trans;
+}
+.whiteGlow:hover{
+    animation:glow 4s 0s ease-in infinite;
+    @include allWhite;
+    
+}
+
+.line{
+    @include noLine;
+}
+.line::before{
+@include uLine;
+}
+.line:hover::before{
+    @include fullLine;
+}

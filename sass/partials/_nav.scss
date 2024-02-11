@@ -1,6 +1,8 @@
 .wrapper{
     background-color: $grey10;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav{
@@ -8,14 +10,17 @@ nav{
     height: 100px;
     background-color: $grey10;
     margin: auto;
+    
+    
     .navBar{
         ul{
             li{
+                padding: 30px;
                 
                 a, .butn{
                     color: $colorWhite;
                     font: $paraText;
-                    padding:20px 40px;
+                    @include btnSize18;
                     cursor: pointer;
                 }
             }
@@ -28,10 +33,15 @@ nav{
     justify-content: center;
     align-items: center;
     position: relative;
+   
     background-image: url(../../media/abstractBanner.png);
     p{
         font: $paraText;
         color: $colorWhite;
+        
     }
-    
+    a{
+        color: $colorWhite;
+        text-decoration: underline;
+    }
 }

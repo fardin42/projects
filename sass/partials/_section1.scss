@@ -5,7 +5,7 @@
     margin-top: 150px;
     gap: 80px;
     .subContainer{
-        gap: 200px;
+        
         align-items: flex-end;
         position: relative;
         img{
@@ -59,6 +59,7 @@
                     .row3Btn{
                         display: flex;
                         gap: 10px;
+                        justify-content: space-between;
                     }
                     .inquiry{
                         gap: 50px;
@@ -68,7 +69,7 @@
             }
         }
         .pageSelect{
-            padding-top: 20px;
+            padding: 20px 0px 40px;
             border-top: $border_1;
             p{
                 font: $paraText;
@@ -76,6 +77,12 @@
                 span{
                     color: $colorWhite;
                 }
+                
+            }
+            .leftRight{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
             }
         }
     }

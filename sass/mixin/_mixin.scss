@@ -10,4 +10,80 @@
     background-color: $grey10;
     border: $border_1;
 }
-
+@mixin btnSize18{
+    padding: 18px 36px;
+}
+@mixin btnBlack{
+    background-color: $grey08;
+    color: $colorWhite;
+    border-radius: 10px;
+    
+    letter-spacing: 1px;
+    transition: 750ms;
+    
+    
+}
+@mixin btnwhite{
+    background-color: $colorWhite;
+    color: $grey08;
+    box-shadow: 0px 5px 10px grey;
+    letter-spacing: 2px;
+   
+}
+@mixin brdrSpacing{
+    
+    border-top: 2px solid white;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px $btn_bg;
+    
+   
+}
+@mixin trans{
+    transition: 0.5s all ease;
+}
+@mixin allWhite{
+    
+    @keyframes glow {
+        5%{
+            box-shadow: 0px 0px 5px white;
+        }
+        15%{
+            box-shadow: 0px 0px 20px red;
+        }
+        30%{
+            box-shadow: 0px 0px 20px orange;
+        }
+        45%{
+            box-shadow: 0px 0px 20px yellow;
+        }
+        60%{
+            box-shadow: 0px 0px 20px green;
+        }
+        75%{
+            box-shadow: 0px 0px 20px blue;
+        }
+        90%{
+            box-shadow: 0px 0px 20px indigo;
+        }
+        100%{
+            box-shadow: 0px 0px 20px violet;
+        }
+    }
+}
+@mixin noLine{
+    position: relative;
+    
+}
+@mixin uLine{
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    height: 3px;
+    width: 0;
+    background-color: #4070f4;
+    border-radius: 50px;
+    transition: width 1s ease;
+}
+@mixin fullLine{
+    width: 100%;
+}
