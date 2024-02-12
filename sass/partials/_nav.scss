@@ -15,7 +15,6 @@ nav{
     .navBar{
         ul{
             li{
-                padding: 30px;
                 
                 a, .butn{
                     color: $colorWhite;
@@ -42,6 +41,6 @@ nav{
     }
     a{
         color: $colorWhite;
-        text-decoration: underline;
+        
     }
 }

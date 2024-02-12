@@ -1,0 +1,42 @@
+@media (min-width:1000px) and (max-width:1440px){
+.homepage{
+    width: 100vw;
+    margin: auto;
+    overflow: hidden;
+    .wrapper{
+        width: 100vw;
+        
+    }
+    .container{
+        width: 100vw;
+        .leftSide{
+            article{
+                h2{
+                    font-size: 40px;
+                }
+            }
+        }
+        // .rightSide{
+            
+        // }
+        
+    }
+
+}
+    
+}
+@media screen and (min-width:1200px)  {
+    .wrapper{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .homepage{
+        width: 100vw;
+        margin: auto;
+        overflow: hidden;
+        
+    }
+        
+    }

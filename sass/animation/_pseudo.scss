@@ -19,6 +19,7 @@
 
 .line{
     @include noLine;
+    
 }
 .line::before{
 @include uLine;
